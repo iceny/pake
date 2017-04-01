@@ -1,6 +1,8 @@
 <?php
 class HomeController extends BaseController{
 	public function home(){
-         echo "这是一个控制器！";
+         $info=Article::getinfo();
+         require dirname(__FILE__).'/../views/home.php';
+       
 	}
 }

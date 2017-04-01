@@ -1,16 +1,13 @@
 <?php
-    require_once '../vendor/autoload.php';
+use NoahBuscher\Macaw\Macaw;
 
-    $klein = new \Klein\Klein();
+Macaw::get('/', function() {
+  echo "成功！";
+});
 
-       $klein->respond('GET', '/',  'HomeController@home');
-
-       $klein->respond('GET', '/fcc', function () {
-           return 'Hello World!';
-         });
-
-       $klein->respond('get','/lzh',function(){
-       	   return "呵呵！";
-       });
-
-       $klein->dispatch();
+Macaw::get('/home', 'HomeController@home');
+// Macaw::get('(:all)', function($fu) {
+//   echo '未匹配到路由<br>'.$fu;
+// });
+Macaw::get('/article','ArticleController@index');
+Macaw::dispatch();

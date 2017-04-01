@@ -2,7 +2,7 @@
 use NoahBuscher\Macaw\Macaw;
 
 Macaw::get('/', function() {
-  echo "成功！";
+  echo "成功了！";
 });
 
 Macaw::get('/home', 'HomeController@home');

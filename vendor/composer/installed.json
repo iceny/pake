@@ -17,7 +17,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2016-10-13T22:34:57+00:00",
+        "time": "2016-10-13 22:34:57",
         "type": "library",
         "installation-source": "source",
         "autoload": {
@@ -52,7 +52,7 @@
         "suggest": {
             "ext-mbstring": "For best performance"
         },
-        "time": "2016-11-14T01:06:16+00:00",
+        "time": "2016-11-14 01:06:16",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -125,7 +125,7 @@
             "symfony/config": "",
             "symfony/yaml": ""
         },
-        "time": "2017-03-04T12:23:14+00:00",
+        "time": "2017-03-04 12:23:14",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -181,7 +181,7 @@
             "friendsofphp/php-cs-fixer": "~2",
             "phpunit/phpunit": "~4.0 || ~5.0"
         },
-        "time": "2017-01-16T07:55:07+00:00",
+        "time": "2017-01-16 07:55:07",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -237,7 +237,7 @@
         "suggest": {
             "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
         },
-        "time": "2017-03-13T16:27:32+00:00",
+        "time": "2017-03-13 16:27:32",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -281,7 +281,7 @@
         "require": {
             "php": ">=5.6.4"
         },
-        "time": "2017-02-21T14:21:59+00:00",
+        "time": "2017-02-21 14:21:59",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -328,7 +328,7 @@
         "require-dev": {
             "phpunit/phpunit": "4.*"
         },
-        "time": "2015-11-06T14:35:42+00:00",
+        "time": "2015-11-06 14:35:42",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -406,7 +406,7 @@
             "symfony/process": "Required to use the composer class (~3.2).",
             "symfony/var-dumper": "Required to use the dd function (~3.2)."
         },
-        "time": "2017-02-15T19:29:24+00:00",
+        "time": "2017-02-15 19:29:24",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -454,7 +454,7 @@
             "illuminate/contracts": "5.4.*",
             "php": ">=5.6.4"
         },
-        "time": "2017-01-28T17:55:54+00:00",
+        "time": "2017-01-28 17:55:54",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -510,7 +510,7 @@
             "illuminate/filesystem": "Required to use the migrations (5.4.*).",
             "illuminate/pagination": "Required to paginate the result set (5.4.*)."
         },
-        "time": "2017-02-22T14:16:49+00:00",
+        "time": "2017-02-22 14:16:49",
         "type": "library",
         "extra": {
             "branch-alias": {

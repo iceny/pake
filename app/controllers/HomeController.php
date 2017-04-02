@@ -1,8 +1,10 @@
 <?php
+// use Illuminate\Database\Eloquent\Model;
 class HomeController extends BaseController{
 	public function home(){
-         $info=Article::getinfo();
-         require dirname(__FILE__).'/../views/home.php';
+         $article = Article::first();
+         var_dump($article);
+         // require dirname(__FILE__).'/../views/home.php';
        
 	}
 }

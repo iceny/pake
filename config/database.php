@@ -5,7 +5,7 @@ return [
     'host'       => 'localhost',
     'databsase'  => 'pake',
     'username'   => 'root',
-    'password'   => '',
+    'password'   => 'root',
     'charset'    => 'utf8',
     'collation'  => 'utf8_general_ci',
     'prefix'     => ''

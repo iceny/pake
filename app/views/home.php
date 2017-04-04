@@ -1,5 +1,5 @@
 
 <?php
        
-        echo"<h1>".$info['title']."</h1>";
-	   	echo "<p>".$info['content']."</p>";
+        echo"<h1>".$article['title']."</h1>";
+	   	echo "<p>".$article['content']."</p>";

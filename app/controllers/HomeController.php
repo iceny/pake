@@ -3,7 +3,7 @@
 class HomeController extends BaseController{
 	public function home(){
          $article = Article::getinfo();
-         var_dump($article);
+         //var_dump($article);
          require dirname(__FILE__).'/../views/home.php';
        
 	}

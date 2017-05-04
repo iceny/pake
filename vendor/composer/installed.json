@@ -93,72 +93,6 @@
         ]
     },
     {
-        "name": "symfony/translation",
-        "version": "v3.2.6",
-        "version_normalized": "3.2.6.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/translation.git",
-            "reference": "0e1b15ce8fbf3890f4ccdac430ed5e07fdfe0690"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/translation/zipball/0e1b15ce8fbf3890f4ccdac430ed5e07fdfe0690",
-            "reference": "0e1b15ce8fbf3890f4ccdac430ed5e07fdfe0690",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9",
-            "symfony/polyfill-mbstring": "~1.0"
-        },
-        "conflict": {
-            "symfony/config": "<2.8"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.8|~3.0",
-            "symfony/intl": "^2.8.18|^3.2.5",
-            "symfony/yaml": "~2.8|~3.0"
-        },
-        "suggest": {
-            "psr/log": "To use logging capability in translator",
-            "symfony/config": "",
-            "symfony/yaml": ""
-        },
-        "time": "2017-03-04T12:23:14+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.2-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Translation\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Translation Component",
-        "homepage": "https://symfony.com"
-    },
-    {
         "name": "nesbot/carbon",
         "version": "1.22.1",
         "version_normalized": "1.22.1.0",
@@ -333,9 +267,75 @@
         ]
     },
     {
+        "name": "symfony/translation",
+        "version": "v3.2.8",
+        "version_normalized": "3.2.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/translation.git",
+            "reference": "f4a04d2df710f81515df576b2de06bdeee518b83"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/symfony/translation/f4a04d2df710f81515df576b2de06bdeee518b83.zip",
+            "reference": "f4a04d2df710f81515df576b2de06bdeee518b83",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "conflict": {
+            "symfony/config": "<2.8"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.8|~3.0",
+            "symfony/intl": "^2.8.18|^3.2.5",
+            "symfony/yaml": "~2.8|~3.0"
+        },
+        "suggest": {
+            "psr/log": "To use logging capability in translator",
+            "symfony/config": "",
+            "symfony/yaml": ""
+        },
+        "time": "2017-04-12T14:13:17+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Translation\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Translation Component",
+        "homepage": "https://symfony.com"
+    },
+    {
         "name": "illuminate/contracts",
-        "version": "v5.4.17",
-        "version_normalized": "5.4.17.0",
+        "version": "v5.4.19",
+        "version_normalized": "5.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/contracts.git",
@@ -343,7 +343,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/contracts/zipball/ab2825726bee46a67c8cc66789852189dbef74a9",
+            "url": "https://files.phpcomposer.com/files/illuminate/contracts/ab2825726bee46a67c8cc66789852189dbef74a9.zip",
             "reference": "ab2825726bee46a67c8cc66789852189dbef74a9",
             "shasum": ""
         },
@@ -378,17 +378,17 @@
     },
     {
         "name": "illuminate/support",
-        "version": "v5.4.17",
-        "version_normalized": "5.4.17.0",
+        "version": "v5.4.19",
+        "version_normalized": "5.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/support.git",
-            "reference": "c7e7c9daf5044e76b46085b8351f8235a3e979c6"
+            "reference": "b8cb37e15331c59da51c8ee5838038baa22d7955"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/support/zipball/c7e7c9daf5044e76b46085b8351f8235a3e979c6",
-            "reference": "c7e7c9daf5044e76b46085b8351f8235a3e979c6",
+            "url": "https://files.phpcomposer.com/files/illuminate/support/b8cb37e15331c59da51c8ee5838038baa22d7955.zip",
+            "reference": "b8cb37e15331c59da51c8ee5838038baa22d7955",
             "shasum": ""
         },
         "require": {
@@ -406,7 +406,7 @@
             "symfony/process": "Required to use the composer class (~3.2).",
             "symfony/var-dumper": "Required to use the dd function (~3.2)."
         },
-        "time": "2017-03-28T12:49:45+00:00",
+        "time": "2017-04-09T14:34:57+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -437,24 +437,24 @@
     },
     {
         "name": "illuminate/container",
-        "version": "v5.4.17",
-        "version_normalized": "5.4.17.0",
+        "version": "v5.4.19",
+        "version_normalized": "5.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/container.git",
-            "reference": "1fc0d2451e23d2ea73c10462d74add4767e2b74c"
+            "reference": "50aa19491d478edd907d1f67e0928944e8b2dcb5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/container/zipball/1fc0d2451e23d2ea73c10462d74add4767e2b74c",
-            "reference": "1fc0d2451e23d2ea73c10462d74add4767e2b74c",
+            "url": "https://files.phpcomposer.com/files/illuminate/container/50aa19491d478edd907d1f67e0928944e8b2dcb5.zip",
+            "reference": "50aa19491d478edd907d1f67e0928944e8b2dcb5",
             "shasum": ""
         },
         "require": {
             "illuminate/contracts": "5.4.*",
             "php": ">=5.6.4"
         },
-        "time": "2017-03-13T14:14:19+00:00",
+        "time": "2017-04-16T13:32:45+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -482,17 +482,17 @@
     },
     {
         "name": "illuminate/database",
-        "version": "v5.4.17",
-        "version_normalized": "5.4.17.0",
+        "version": "v5.4.19",
+        "version_normalized": "5.4.19.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/database.git",
-            "reference": "7323bfc4e3e0aa46f427c705091dc373160d3983"
+            "reference": "890564c6b84bcb2b45d41d3da072fabf422c07f5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/database/zipball/7323bfc4e3e0aa46f427c705091dc373160d3983",
-            "reference": "7323bfc4e3e0aa46f427c705091dc373160d3983",
+            "url": "https://files.phpcomposer.com/files/illuminate/database/890564c6b84bcb2b45d41d3da072fabf422c07f5.zip",
+            "reference": "890564c6b84bcb2b45d41d3da072fabf422c07f5",
             "shasum": ""
         },
         "require": {
@@ -510,7 +510,7 @@
             "illuminate/filesystem": "Required to use the migrations (5.4.*).",
             "illuminate/pagination": "Required to paginate the result set (5.4.*)."
         },
-        "time": "2017-04-02T22:04:36+00:00",
+        "time": "2017-04-11T22:53:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -541,5 +541,246 @@
             "orm",
             "sql"
         ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/php-fig/log/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d.zip",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-10-10T12:19:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "filp/whoops",
+        "version": "2.1.8",
+        "version_normalized": "2.1.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/filp/whoops.git",
+            "reference": "f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/filp/whoops/f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3.zip",
+            "reference": "f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9 || ^7.0",
+            "psr/log": "^1.0.1"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.9.*",
+            "phpunit/phpunit": "^4.8 || ^5.0",
+            "symfony/var-dumper": "^2.6 || ^3.0"
+        },
+        "suggest": {
+            "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
+            "whoops/soap": "Formats errors as SOAP responses"
+        },
+        "time": "2017-03-07T09:04:45+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Whoops\\": "src/Whoops/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Filipe Dobreira",
+                "homepage": "https://github.com/filp",
+                "role": "Developer"
+            }
+        ],
+        "description": "php error handling for cool kids",
+        "homepage": "https://filp.github.io/whoops/",
+        "keywords": [
+            "error",
+            "exception",
+            "handling",
+            "library",
+            "whoops",
+            "zf2"
+        ]
+    },
+    {
+        "name": "nette/utils",
+        "version": "v2.4.5",
+        "version_normalized": "2.4.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nette/utils.git",
+            "reference": "28ad4e2a6dcf143c23bde969a825f10a5d513602"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/nette/utils/28ad4e2a6dcf143c23bde969a825f10a5d513602.zip",
+            "reference": "28ad4e2a6dcf143c23bde969a825f10a5d513602",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "conflict": {
+            "nette/nette": "<2.2"
+        },
+        "require-dev": {
+            "nette/tester": "~2.0",
+            "tracy/tracy": "^2.3"
+        },
+        "suggest": {
+            "ext-gd": "to use Image",
+            "ext-iconv": "to use Strings::webalize() and toAscii()",
+            "ext-intl": "for script transliteration in Strings::webalize() and toAscii()",
+            "ext-json": "to use Nette\\Utils\\Json",
+            "ext-mbstring": "to use Strings::lower() etc...",
+            "ext-xml": "to use Strings::length() etc. when mbstring is not available",
+            "https://nette.org/donate": "\u001b[1;37;42m Please consider supporting Nette via a donation \u001b[0m"
+        },
+        "time": "2017-03-29T16:55:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "GPL-2.0",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "David Grudl",
+                "homepage": "https://davidgrudl.com"
+            },
+            {
+                "name": "Nette Community",
+                "homepage": "https://nette.org/contributors"
+            }
+        ],
+        "description": "Nette Utility Classes",
+        "homepage": "https://nette.org"
+    },
+    {
+        "name": "nette/mail",
+        "version": "v2.4.2",
+        "version_normalized": "2.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nette/mail.git",
+            "reference": "2bb0333200dbec22b0c1868d907e3e451b555665"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/nette/mail/2bb0333200dbec22b0c1868d907e3e451b555665.zip",
+            "reference": "2bb0333200dbec22b0c1868d907e3e451b555665",
+            "shasum": ""
+        },
+        "require": {
+            "ext-iconv": "*",
+            "nette/utils": "^2.4 || ~3.0.0",
+            "php": ">=5.6.0"
+        },
+        "conflict": {
+            "nette/nette": "<2.2"
+        },
+        "require-dev": {
+            "nette/di": "^2.4 || ~3.0.0",
+            "nette/tester": "^2.0",
+            "tracy/tracy": "^2.4"
+        },
+        "suggest": {
+            "ext-fileinfo": "to detect type of attached files"
+        },
+        "time": "2017-01-27T12:43:33+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "GPL-2.0",
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "David Grudl",
+                "homepage": "https://davidgrudl.com"
+            },
+            {
+                "name": "Nette Community",
+                "homepage": "https://nette.org/contributors"
+            }
+        ],
+        "description": "Nette Mail: Sending E-mails",
+        "homepage": "https://nette.org"
     }
 ]

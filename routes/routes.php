@@ -6,10 +6,14 @@ Macaw::get('/', function() {
 });
 //匹配路由自定义规则了099999999
 Macaw::get('/home', 'HomeController@home');
-// Macaw::get('(:all)', function($fu) {
-//   echo '未匹配到路由<br>'.$fu;
-// });
 
+Macaw::$error_callback = function() {
+  throw new Exception("路由无匹配项 404 Not Found");
+};
+
+Macaw::get('/abc',function(){
+	echo '哈哈';
+});
 Macaw::get('/admin','AdminController@index');      //后台首页
 Macaw::get('/article','ArticleController@index');
 Macaw::dispatch();

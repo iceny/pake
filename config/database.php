@@ -3,9 +3,9 @@
 return [
     'driver'     => 'mysql',
     'host'       => 'localhost',
-    'databsase'  => 'pake',
+    'database'  => 'pake',
     'username'   => 'root',
-    'password'   => 'root',
+    'password'   => '',
     'charset'    => 'utf8',
     'collation'  => 'utf8_general_ci',
     'prefix'     => ''

@@ -12,7 +12,7 @@ Macaw::$error_callback = function() {
 };
 
 Macaw::get('/abc',function(){
-	echo '哈哈';
+	echo '哈哈1';
 });
 Macaw::get('/admin','AdminController@index');      //后台首页
 Macaw::get('/article','ArticleController@index');

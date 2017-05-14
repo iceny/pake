@@ -4,7 +4,7 @@ use NoahBuscher\Macaw\Macaw;
 Macaw::get('/', function() {
   echo "成功了！";
 });
-//匹配路由自定义规则了0999999998664
+//匹配路由自定义规则了09999999986642
 Macaw::get('/home', 'HomeController@home');
 
 Macaw::$error_callback = function() {
